@@ -1,9 +1,9 @@
 package com.example.droneapi.drone;
 
+import com.example.droneapi.drone.enums.DroneModel;
+import com.example.droneapi.drone.enums.DroneState;
+import com.example.droneapi.medication.Medication;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.musalatask.Musalatask.drone.enums.DroneModel;
-import com.musalatask.Musalatask.drone.enums.DroneState;
-import com.musalatask.Musalatask.medication.Medication;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;

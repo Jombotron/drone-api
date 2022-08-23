@@ -1,6 +1,6 @@
 package com.example.droneapi.drone;
 
-import com.musalatask.Musalatask.drone.enums.DroneModel;
+import com.example.droneapi.drone.enums.DroneModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

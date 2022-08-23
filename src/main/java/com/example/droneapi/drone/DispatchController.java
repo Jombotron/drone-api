@@ -2,7 +2,7 @@ package com.example.droneapi.drone;
 
 //import com.musalatask.Musalatask.model.DroneMedications;
 
-import com.musalatask.Musalatask.medication.Medication;
+import com.example.droneapi.medication.Medication;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
