@@ -1,19 +1,11 @@
 package com.example.droneapi.drone;
 
 import com.example.droneapi.constants.Default_Messages;
-import com.example.droneapi.drone.enums.DroneModel;
 import com.example.droneapi.drone.enums.DroneState;
 import com.example.droneapi.exception.DroneException;
 import com.example.droneapi.exception.MedicationException;
 import com.example.droneapi.medication.Medication;
 import com.example.droneapi.medication.MedicationRepository;
-import com.musalatask.Musalatask.constants.Default_Messages;
-import com.musalatask.Musalatask.drone.enums.DroneModel;
-import com.musalatask.Musalatask.drone.enums.DroneState;
-import com.musalatask.Musalatask.exception.DroneException;
-import com.musalatask.Musalatask.exception.MedicationException;
-import com.musalatask.Musalatask.medication.Medication;
-import com.musalatask.Musalatask.medication.MedicationRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

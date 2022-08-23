@@ -1,7 +1,6 @@
 package com.example.droneapi.drone;
 
 import com.example.droneapi.drone.enums.DroneState;
-import com.musalatask.Musalatask.drone.enums.DroneState;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
