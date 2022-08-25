@@ -1,7 +1,7 @@
 package com.example.droneapi.medication;
 
+import com.example.droneapi.drone.DroneEntity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.musalatask.Musalatask.drone.DroneEntity;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;

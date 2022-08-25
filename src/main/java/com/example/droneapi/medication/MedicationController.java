@@ -1,7 +1,5 @@
 package com.example.droneapi.medication;
 
-//import com.musalatask.Musalatask.model.DroneMedications;
-
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

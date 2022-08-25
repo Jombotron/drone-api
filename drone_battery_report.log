@@ -1,0 +1,39 @@
+2022-08-25 18:36:56.303  INFO 10755 --- [main] c.example.droneapi.DroneApiApplication   : Starting DroneApiApplication using Java 11.0.15 on SI.local with PID 10755 (/Users/tope/Documents/JavaProjects/drone-api/target/classes started by tope in /Users/tope/Documents/JavaProjects/drone-api)
+2022-08-25 18:36:56.323  INFO 10755 --- [main] c.example.droneapi.DroneApiApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-08-25 18:36:57.362  INFO 10755 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-25 18:36:57.432  INFO 10755 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2022-08-25 18:36:58.104  INFO 10755 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2022-08-25 18:36:58.119  INFO 10755 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-25 18:36:58.119  INFO 10755 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-25 18:36:58.348  INFO 10755 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-25 18:36:58.348  INFO 10755 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1894 ms
+2022-08-25 18:36:58.392  INFO 10755 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-25 18:36:58.704  INFO 10755 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-25 18:36:58.723  INFO 10755 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/droneDb'
+2022-08-25 18:36:58.950  INFO 10755 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-25 18:36:59.037  INFO 10755 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-25 18:36:59.313  INFO 10755 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-25 18:36:59.494  INFO 10755 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-25 18:37:00.456  INFO 10755 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-25 18:37:00.468  INFO 10755 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-25 18:37:01.350  WARN 10755 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-25 18:37:01.800  INFO 10755 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2022-08-25 18:37:01.991  INFO 10755 --- [main] c.example.droneapi.DroneApiApplication   : Started DroneApiApplication in 6.887 seconds (JVM running for 9.42)
+2022-08-25 18:53:58.658  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s760ms), soft-evicting connections from pool.
+2022-08-25 19:17:40.013  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s874ms).
+2022-08-25 19:33:15.661  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m35s552ms).
+2022-08-25 19:48:45.256  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s410ms), soft-evicting connections from pool.
+2022-08-25 19:50:07.109  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s865ms).
+2022-08-25 20:54:18.265  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m11s156ms).
+2022-08-25 21:04:34.349  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s107ms).
+2022-08-25 21:12:19.592  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m14s816ms).
+2022-08-25 21:26:44.374  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m24s791ms).
+2022-08-25 21:33:21.131  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m6s742ms).
+2022-08-25 21:33:48.760  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s629ms), soft-evicting connections from pool.
+2022-08-25 21:38:15.600  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m26s840ms).
+2022-08-25 21:52:33.357  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m17s755ms).
+2022-08-25 22:15:07.670  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s344ms), soft-evicting connections from pool.
+2022-08-25 22:27:03.442  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m25s672ms).
+2022-08-25 22:58:32.507  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m58s125ms).
+2022-08-25 23:41:47.556  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s575ms).
+2022-08-25 23:51:08.380  WARN 10755 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m20s861ms).

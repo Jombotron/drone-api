@@ -1,6 +1,5 @@
 package com.example.droneapi.medication;
-
-import com.musalatask.Musalatask.constants.Default_Messages;
+import com.example.droneapi.constants.Default_Messages;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
