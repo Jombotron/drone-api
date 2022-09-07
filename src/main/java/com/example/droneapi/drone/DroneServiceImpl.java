@@ -55,6 +55,7 @@ public class DroneServiceImpl implements DroneService {
         revaluateDroneState(droneEntity);
         droneRepository.save(droneEntity);
         return ResponseEntity.ok(String.format(Default_Messages.MEDICATION_LOAD_SUCCESS, medicationId, droneId));
+
     }
 
     @Override
